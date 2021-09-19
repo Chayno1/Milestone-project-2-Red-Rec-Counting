@@ -166,12 +166,12 @@ To keep the website simple and easy to use I'm going to have the same header on 
 
 - Main home page layout -
 
-<img src="design-images/home-page.png">
+<img src="design-images/home-page.jpeg">
 
 
 - Game page layout -
 
-<img src="design-images/main-game.png">
+<img src="design-images/main-game.jpeg">
 
 
 ### [Back to top](#contents)
