@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Open+Sans&display=swap');
+
+/*---------------------------header------------------------------------------*/
+
+#title-text {
+  text-align: center;
+  font-family:'Fredoka One', cursive;
+  -webkit-text-stroke: 4px  black;
+  padding: 0;
+}
+#title-text h1 {
+  margin: 0;
+  background-image: linear-gradient(to left, red, orange, gold, green, purple, blue);
+  -webkit-background-clip:content-box;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+  
+
+.color-text-1 {
+  background-image: linear-gradient(to left, blue, purple,green, gold, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 70px;
+
+}
+
+
+
+.color-text-2 {
+  background-image: linear-gradient(to left, blue, purple,green, gold, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+}
+/*--------------nav bar------------------------------------------------*/
+.navbar {
+  padding: 0; 
+}
+
+#navbar-mobile {
+  background-image: linear-gradient(to left, blue, purple,green, gold, orange, red);
+  -webkit-background-clip:content-box;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+}
+.nav-item a span {
+  color: white;
+  padding-right: 20px;
+}
+
+.color-text-2 {
+ color: black;
+ font-family:'Fredoka One', cursive;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+/*-----------------------------------------body game.html--------------------------------------------------*/
+/* ----------------the game squares------------------------- */
+.container {
+    height: 60vh;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1px 1px;
+    padding: 0; 
+  }
+  .cell {
+    width: 80%;
+    height: 80%;
+    padding: 0;
+  
+    margin: 1%;
+    overflow: hidden;
+  }
+  .cell-1 {
+    background: red;
+  }
+  .cell-2 {
+    background: blue;
+  }
+  .cell-3 {
+    background: green;
+  }
+  .cell-4 {
+    background: gold;
+  }
+  .cell-5 {
+    background: red;
+  }
+  .cell-6 {
+    background: blue;
+  }
+  .cell-7 {
+    background: purple;
+  }
+  .cell-8 {
+    background: green;
+  }
+  .cell-9 {
+    background: red;
+  }
+  .cell-10 {
+    background: blue;
+  }
+  .cell-11 {
+    background: purple;
+  }
+  .cell-12 {
+    background: red;
+  }
+  .cell-13 {
+    background: blue;
+  }
+  .cell-14 {
+    background: gold;
+  }
+  .cell-15 {
+    background: orange;
+  }
+  .cell-16 {
+    background: green;
+  }
+  .cell-17 {
+    background: orange;
+  }
+  .cell-18 {
+    background: purple;
+  }
+  .cell-19 {
+    background: red;
+  }
+  .cell-20 {
+    background: blue;
+  }
+  .cell-21 {
+    background: gold;
+  }
+  .cell-22 {
+    background: green;
+  }
+  .cell-23 {
+    background: red;
+  }
+  .cell-24 {
+    background: gold;
+  }
+  .cell-25 {
+    background: purple;
+  }
+
+  /*---------------------game buttons---------------------*/
+
+  #difficulty {
+    margin-right: 0px;
+    margin-left: 60px;
+  width:80%;
+  height: 60%;
+  padding: 0;
+  text-align: center;
+  
+  }
+
+  #diff-msg {
+    display: inline-block;
+    font-family: 'Fredoka One', cursive;
+    color: red;
+  }
+
+  .diff-game {
+    width:auto;
+    display: inline-block;
+    margin-left: 50;
+  }
+
+  #start-game {
+    display: inline-block;
+    width: auto;
+    margin-left: 30px;
+    margin-top: 0;
+    color: red;
+    background-color:rgb(118, 211, 118);
+  }
+  
+
+  .answer-message {
+    height: 80px;
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Fredoka One', cursive;
+  }
+
+
+#answer-box {
+	width: 60px;
+	display: inline-block;
+  margin: 0;
+  
+}
+
+
+.btn {
+	height: auto;
+  width: auto;
+	display: inline-block;
+  margin-right: 0px;
+  font-family: 'Fredoka One', cursive;
+}
+
+/*----------------------scores-----------------------------------*/
+
+
+.score-area {
+  text-align: center;
+  padding: 0;
+  margin-right: 60px;
+  margin-top: -0px;
+  margin-bottom: 0;
+  z-index: 9;
+  
+}
+.scores {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'Fredoka One', cursive;
+}
+
+.prev-game-score {
+  text-align: center;
+  margin-right: 80px;
+}
+
+.prev-score {
+  font-family: 'Fredoka One', cursive;
+  display: inline;
+  margin-left: 50px;
+}
+
+#diff-level {
+  color: red;
+}
+
+#total-score {
+  color:red;
+}
+
+/*------------------------------------body index.html----------------------*/

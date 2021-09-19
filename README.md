@@ -166,12 +166,12 @@ To keep the website simple and easy to use I'm going to have the same header on 
 
 - Main home page layout -
 
-<img src="design-images/home-page.jpeg">
+<img src="assets/images/design-images/home-page.jpeg">
 
 
 - Game page layout -
 
-<img src="design-images/main-game.jpeg">
+<img src="assets/images/design-images/main-game.jpeg">
 
 
 ### [Back to top](#contents)
@@ -185,7 +185,7 @@ Creating the website the wireframes sketched layout was used as a guide to the o
 
 ### Site Navigation
 
-![cut sections of header image](design-images/header-image.jpeg)
+![cut sections of header image](assets/images/design-images/navbar.jpeg)
 
 - The navbar was made using bootstrap v5.0.1 
 
