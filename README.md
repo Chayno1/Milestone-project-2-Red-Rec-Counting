@@ -192,3 +192,97 @@ Creating the website the wireframes sketched layout was used as a guide to the o
 - The navbar now runs across the whole screen below header image for better aestthetics.
 
 
+
+### [Back to top](#contents)
+
+<br>
+
+## CODE STRUCTURE
+
+Folders 
+
+index.html -----------contains html for home page
+
+Game.html-------------contains html for the game page
+
+assets---------------- contains folders css,images,js
+
+css-------------------contains style.css-----all CSS styling for website
+
+js--------------------contains script.js-----all the Javascript code for the website
+
+images----------------contains images used on website and design images folder
+
+design-images---------contains images used in README.md
+
+ css ------------------ contains style.css ---- all CSS styling for website
+             
+ design-images -------- contains all images used in README.md
+
+
+ - font family for website
+ - header
+ - navbar 
+ - game page body
+ - game squares
+ - game buttons
+ - scores
+ - body index.html
+ - index.html pictures
+ 
+
+## CODE BUGS/FIXES
+
+- Struggled to get color change to work in js
+
+-struggled to calculate red rectangles in Javascript
+
+#### Issues not fixed
+
+- media queries/ screen sizes not set.
+
+## FINAL PRODUCT
+
+### Main page top
+
+
+![home page top half view](assets/images/design-images/main-page-top.jpeg)
+
+### Main page bottom
+
+![home page bottom half view](assets/images/design-images/main-page-bottom.jpeg)
+
+### Game Page
+
+![Game page view](assets/images/design-images/game-page.jpeg)
+
+
+## References/ Credits 
+
+#### Bootstrap v5.0.1
+
+In building the website I used bootstrap v5.0.1 I used this for
+<details>
+ <summary>click to expand</summary>
+
+* https://getbootstrap.com/docs/5.0/getting-started/introduction/
+* Page layout for gallery.html and about.html
+*  Creating the Navbar, https://getbootstrap.com/docs/5.0/components/navbar/
+* ![image of navbar code](design-images/navbar-code-image.jpeg)
+*  collapsing navbar which needed bootstrap javascript code
+</details>  
+
+#### Font Family
+- The font 'Fredoka' was obtained from google fonts - https://fonts.google.com/specimen/Fredoka+One?query=Fredoka+One+
+
+#### Markdowncollapsible section
+- I got the code for the markdown collapsible section from -
+https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab
+
+![image of code from markdown collapse source](assets/images/design-images/content-collapse-image.jpeg)
+
+
+### [Back to top](#contents)
+
+## Evaluation
+
