@@ -11,33 +11,19 @@
 #title-text h1 {
   margin: 0;
   background-image: linear-gradient(to left, red, orange, gold, green, purple, blue);
-  -webkit-background-clip:content-box;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }
   
 
 .color-text-1 {
-  background-image: linear-gradient(to left, blue, purple,green, gold, orange, red);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-size: 70px;
-
+  background-image: linear-gradient(to left, blue, purple,green, gold, orange, red)
 }
 
 
 
 .color-text-2 {
   background-image: linear-gradient(to left, blue, purple,green, gold, orange, red);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  
 }
+
 /*--------------nav bar------------------------------------------------*/
 .navbar {
   padding: 0; 
