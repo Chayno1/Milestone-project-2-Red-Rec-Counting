@@ -247,6 +247,16 @@ design-images---------contains images used in README.md
 - Found soulution by counting red rectangles with in the color change function. 
 ![JavaScript colorChange function solution](assets/images/design-images/colorChange-pic-solution.jpeg)
 
+- Navbar and header background colors not working on safari browser. Tried several alterations to html and css to fix issue. Assumed this may be due to bootstrap code/bootstrap code link as rest of the site works as expected. Found partial solution in re doing css code for these areas. put css code through https://autoprefixer.github.io/ and replaced css file with this. All attempts have partly fixed issue, still issue with main title text color.
+
+![bootstrap issue](assets/images/design-images/bootstrap-issue-fix.jpeg)
+
+<br>
+
+![bootstrap issue navbar](assets/images/design-images/bootstrap-issue.jpeg)
+
+
+
 #### Issues not fixed
 
 - media queries/ screen sizes not set.
