@@ -251,6 +251,8 @@ design-images---------contains images used in README.md
 
 - media queries/ screen sizes not set.
 
+- css/bootstrap error, heading and navbar background-color not working on safari browser.
+
 ## FINAL PRODUCT
 
 ### Main page top
@@ -443,6 +445,8 @@ To improve and better exceed on project aims, these are future acts I would take
 #### Fix Issues
 
 - Add media queries so the website functions properly on all size screens.
+
+- heading and navbar background colour to be fixed for safari browser
 
 
 #### new features
