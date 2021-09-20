@@ -11,11 +11,13 @@
 #title-text h1 {
   margin: 0;
   background-image: linear-gradient(to left, red, orange, gold, green, purple, blue);
+  
 }
   
 
 .color-text-1 {
-  background-image: linear-gradient(to left, blue, purple,green, gold, orange, red)
+  background-image: linear-gradient(to left, blue, purple,green, gold, orange, red);
+  
 }
 
 
@@ -31,11 +33,7 @@
 
 #navbar-mobile {
   background-image: linear-gradient(to left, blue, purple,green, gold, orange, red);
-  -webkit-background-clip:content-box;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  
+ 
 }
 .nav-item a span {
   color: white;
