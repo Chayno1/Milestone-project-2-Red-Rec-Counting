@@ -406,19 +406,29 @@ I kept the images separate into 2 different categories design-images, images. Th
 
 html : To test my html coding first I went through each page checking for any obvious mistakes I could notice myself. I then put my code through a coder validator at https://validator.w3.org/ , results displayed below :
 
-![image of html checker results](design-images/html-checker-image.jpeg)
+![image of html checker results](assets/images/design-images/html-pic-error.jpeg)
+
+<br>
+
+![image of html checker results](assets/images/design-images/html-pic-success.jpeg)
 
 CSS : To test my css code I again went through my style.css sheet and visually looked for any obvious errors I noticed. I then put my code through an online css validator at https://jigsaw.w3.org/css-validator/ . This did flag up loads of minor errors, however I was unable to interpret what the results were indicating as the error code was not in my css file. My conclusion is the errors were to do with background code from the bootstrap classes I used on my website, also possibly the verison of bootstrap being used. As my course is not yet complete I'm unable to act at this time till I learn more about different codes. Results displayed below:
 
-![image of css checker results](design-images/w3c-css-test-image.jpeg)
+![image of css checker results](assets/images/design-images/css-check-top.jpeg)
+![image of css checker results](assets/images/design-images/css-check-bot.jpeg)
  
  lighthouse: An additional test I performed was with lighthouse in google chrome developers tools. I ran this test to get an overall read out of how my website was performing, results below :
 
- ![image of lighthouse test results](design-images/lighthouse-test-image.jpeg)
+ ![image of lighthouse test results](assets/images/design-images/lighthouse.jpeg)
 
  #### Website Function Test
 
  - To test the function of the website I played the game and used the website in a number of different ways to test the response and how well the interaction worked between user and website. In this I checked all possible user options and made sure the website was functional.
+
+ - To test the JavaScript I put the JavaScript code through a JavaScript checker JSHint.com. Although it had 15 warnings, the code had no major faults. At this point the 15 warnings were not fully understood, they suggest a better use of code is possible.
+
+ ![image of JSHint test results](assets/images/design-images/JSHint.jpeg)
+
 
 
 
