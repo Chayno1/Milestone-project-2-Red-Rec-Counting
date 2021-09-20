@@ -296,3 +296,153 @@ https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab
 
 ## Evaluation
 
+### Deployment
+
+My website is deployed on github pages -  https://chayno1.github.io/Milestone-project-2-Red-Rec-Counting/
+
+How I deployed -
+
+1. Signed in on Github.com
+2. opened up my repository Milestone-project-2-Red-Rec-Counting
+3. opened settings and clicked on pages
+4. In pages clicked on source and changed from none to main then saved.
+5. opened live url to check website.
+6. made minor changes to image links as background links didnt intially load.
+7. Rechecked live url and proceeded to test website.
+
+
+## Evaluation 
+
+### Test Website
+
+- To evaluate and test my project I broke the testing down into three categories;
+- Project objective test
+- Website Build test
+- Website function test
+
+#### Project objective test
+
+- This part of the test is about testing the websites ability to meet the aims intially set out for the project. This includes
+  website business needs, design needs, user needs and project aim.
+
+##### Website business needs
+
+ - To explain the type of website it is
+
+- To explain how to play the game
+
+- make the game easily accessible
+
+- A way for anyone visiting to play 
+
+- give the opportunity to count success or failure of the game
+
+Evaluation : The website covers all 5 points on business needs, 
+- The main page is clear in presenting an online game
+- Clear instructions are provide on the main page with images to showcase what to look for.
+- The website is only made of two pages making access to start the game only a click away.
+- Several links to the game page are provide on the home page(about) which are easily accessible
+- The game tallies up the result of each game so the user can keep track of their score.
+
+Conclusion : The website achieves the busines needs to a basic level
+
+##### Website design needs
+
+- Website site needs to attractive and interesting
+
+- fun and entertaining
+
+- Simple and easy to use
+
+- website will be built with HTML,CSS,JavaScript
+
+Evaluation : The website covers all 4 points on design needs,
+- website is bright and colourful attracting attenion
+- The website site is clear and simple to use, content only on two pages making it quick fo the user to navigate
+- The game is bright,interactive and random, making it moderately fun and entertaining
+- the website was built with HTML,CSS and JavaScript
+
+Conclusion: The website achieves the goals of design needs to a basic level, However the game could be more entertaining
+
+
+####  website user needs 
+
+- What website they are on, and what service it is providing.
+
+- quickly establish where to find the information they are looking for.
+
+- Quickly get playing the game
+
+- To play the game without any issues with in the game
+
+Evaluation : 
+
+Conclusion: All the goals are achieved to a basic level.  
+
+####  project aim
+
+Conclusion: Website works as expected. All functions work as expected, alerts pop ups as when expected.
+
+
+### [Back to top](#contents)
+
+
+
+#### Website Build Test
+
+  - This part of the test is about testing the websites links, coding and background structure. This includes testing html coding, css styling, css layout, file layout and organisation.
+
+  #### website links, responsive design,deployment
+ 
+ Evaluation : After deploying the website I first checked that each page loaded properly which was successful after some minor adjustments image file links. I then tested the responsive design by changeing the screen size and observing how the website reacted, in which the website changed as designed apart from minor issue referenced in the [code bugs/fixes](#code-bugs/fixes).
+ Next I checked all the links, the navbar links to all the pages, the footer links, social media links and main body links. I made sure that all links on all pages worked correctly and went to the correct location, also whether they opened in a new tab or changed the page as set in the coding. The website passed all these tests.
+
+Conclusion : The frontend of the website is operating and presenting correctly as designed in the coding, no issues with overall interaction.
+
+#### html, css, file organisation
+
+file organisation :
+I kept the images separate into 2 different categories design-images, images. The design-images folder is for all images used in the README.md, images folder is for all images used on the website. The style.css is contained in the CSS folder and the script.js is contained in the js folder. All three folders CSS,JS,images folders are contained in one folder called assets.
+
+html : To test my html coding first I went through each page checking for any obvious mistakes I could notice myself. I then put my code through a coder validator at https://validator.w3.org/ , results displayed below :
+
+![image of html checker results](design-images/html-checker-image.jpeg)
+
+CSS : To test my css code I again went through my style.css sheet and visually looked for any obvious errors I noticed. I then put my code through an online css validator at https://jigsaw.w3.org/css-validator/ . This did flag up loads of minor errors, however I was unable to interpret what the results were indicating as the error code was not in my css file. My conclusion is the errors were to do with background code from the bootstrap classes I used on my website, also possibly the verison of bootstrap being used. As my course is not yet complete I'm unable to act at this time till I learn more about different codes. Results displayed below:
+
+![image of css checker results](design-images/w3c-css-test-image.jpeg)
+ 
+ lighthouse: An additional test I performed was with lighthouse in google chrome developers tools. I ran this test to get an overall read out of how my website was performing, results below :
+
+ ![image of lighthouse test results](design-images/lighthouse-test-image.jpeg)
+
+ #### Website Function Test
+
+ - To test the function of the website I played the game and used the website in a number of different ways to test the response and how well the interaction worked between user and website. In this I checked all possible user options and made sure the website was functional.
+
+
+
+### Overall Test Conclusion
+
+Based on all the testing I have performed on the website I feel the site functions well at a basic level achieving the project aims.
+
+## Future changes/ add ons 
+
+To improve and better exceed on project aims, these are future acts I would take on improving this website
+
+#### Fix Issues
+
+- Add media queries so the website functions properly on all size screens.
+
+
+#### new features
+
+- Footer, I would add a footer with social media links or other business infomation for the user to link to.
+
+- add more complexicity to the game itself, for example create a a round of 10 games and scoring out of 10 instead of 1 game at a time.
+
+
+### [Back to top](#contents)
+
+
+
