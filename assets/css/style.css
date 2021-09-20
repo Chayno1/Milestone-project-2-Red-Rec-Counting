@@ -8,7 +8,7 @@
   -webkit-text-stroke: 4px  black;
   padding: 0;
 }
-#title-text h1 {
+#title-text {
   margin: 0;
   background-image: linear-gradient(to left, red, orange, gold, green, purple, blue);
   
@@ -16,7 +16,7 @@
   
 
 .color-text-1 {
-  background-image: linear-gradient(to left, blue, purple,green, gold, orange, red);
+  color: linear-gradient(to left, blue, purple,green, gold, orange, red);
   
 }
 
