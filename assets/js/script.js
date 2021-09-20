@@ -20,3 +20,10 @@ function changeColors() {
         recs[i]. style. backgroundColor = randomColor;
     }
     }
+
+
+ hideColors()
+
+submitAnswers()
+
+calculateCorrectScore()
