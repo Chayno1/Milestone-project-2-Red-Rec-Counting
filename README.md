@@ -219,7 +219,7 @@ design-images---------contains images used in README.md
              
  design-images -------- contains all images used in README.md
 
-
+### CSS
  - font family for website
  - header
  - navbar 
@@ -230,12 +230,22 @@ design-images---------contains images used in README.md
  - body index.html
  - index.html pictures
  
+ ### JavaScript
+
+ - document loaded
+ - Start Buttton
+ - Color Change and red count function
+ - Main game operations
+ - Answer Functions
 
 ## CODE BUGS/FIXES
 
-- Struggled to get color change to work in js
 
--struggled to calculate red rectangles in Javascript
+- Struggled to get color change to work in js and struggled to calculate red rectangles in Javascript
+![JavaScript colorChange function issue](assets/images/design-images/colorchange-pic-issue.jpeg)
+
+- Found soulution by counting red rectangles with in the color change function. 
+![JavaScript colorChange function solution](assets/images/design-images/colorChange-pic-solution.jpeg)
 
 #### Issues not fixed
 
@@ -246,11 +256,11 @@ design-images---------contains images used in README.md
 ### Main page top
 
 
-![home page top half view](assets/images/design-images/main-page-top.jpeg)
+![home page top half view](assets/images/design-images/home-page-top.jpeg)
 
 ### Main page bottom
 
-![home page bottom half view](assets/images/design-images/main-page-bottom.jpeg)
+![home page bottom half view](assets/images/design-images/home-page-bottom.jpeg)
 
 ### Game Page
 

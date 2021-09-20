@@ -6,24 +6,76 @@ document.addEventListener("DOMContentLoaded", function() {
 let startButton = document.getElementById("start-game");
 
 startButton.addEventListener('click', function() {
-    runGame();
+    let difficulty = document.getElementById("diff-options");
+    runGame(difficulty.value);
 });
 
-// color change rectangles
+// color change rectangles and counting reds
 function changeColors() {
     numberReds = 0;
     let colors = [ 'blue', 'purple', 'green', 'gold', 'orange', 'red'];
     let recs = document.getElementsByClassName("cell");
     for(let i = 0; i < recs. length; i++){
         let rand = Math.floor(Math.random()*6);
-        let randomColor = colors[rand];
+        var randomColor = colors[rand];
+        if (randomColor == "red") {
+            numberReds ++;
+        }
         recs[i]. style. backgroundColor = randomColor;
     }
     }
 
+/*----------------- Main game Operations--------------------- */
 
- hideColors()
+function runGame(difficulty) {
+    changeColors();
+    let displayTime = 0;
+    if (difficulty == 'easy'){
+        displayTime = 2;    
+    } else if (difficulty =='medium'){
+        displayTime = 1;
+    }else if (difficulty == "hard"){
+        displayTime = 0.5;
+    }else {
+        alert("select diffuclty level!!!");
+    }
+    setTimeout(hideColors, displayTime * 1000);
+};
 
-submitAnswers()
+function hideColors() {
+    let recs = document.getElementsByClassName("cell");
+    for(let i = 0; i < recs. length; i++){
+        recs[i]. style. backgroundColor = "black";
+    }
+};
 
-calculateCorrectScore()
+
+
+/*----------------------Answer functions---------------*/
+
+var correctScore = 0;
+var wrongScore = 0;
+var numberReds = 0;
+
+
+let submitAnswer = document.getElementById("submit-answer");
+
+submitAnswer.addEventListener('click', function() {
+    let answerBox = document.getElementById("answer-box");
+    if ( answerBox.value) {
+        if (answerBox.value == numberReds) {
+            correctScore ++;
+            alert("Well Done!! You Guessed Correct!!!");
+        } else {
+            wrongScore ++;
+            alert("Oh No!, that was wrong, try again!!!");
+        }
+        let score = document.getElementById("score");
+        let incorrectScore = document.getElementById("incorrect");
+
+        score.innerText = correctScore;
+        incorrectScore.innerText = wrongScore;
+    } else {
+        alert("Please put in an Answer");
+    }
+});
