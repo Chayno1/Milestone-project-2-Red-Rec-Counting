@@ -6,6 +6,7 @@
   text-align: center;
   font-family:'Fredoka One', cursive;
   -webkit-text-stroke: 4px  black;
+  color: linear-gradient(to left, blue, purple,green, gold, orange, red);
   padding: 0;
 }
 #title-text {
